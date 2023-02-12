@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RCB Test Suite]">
+  <listeners>
+    <listener class-name="com.automation.common.listeners.SuiteListeners"/>
+    <listener class-name="com.automation.common.listeners.TestListeners"/>
+    <listener class-name="com.automation.common.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test 4 Foreign Players(failed)">
+    <classes>
+      <class name="com.automation.rcbteam.tests.TestForeignPlayers">
+        <methods>
+          <include name="testMaxForeignPlayers"/>
+        </methods>
+      </class> <!-- com.automation.rcbteam.tests.TestForeignPlayers -->
+    </classes>
+  </test> <!-- Test 4 Foreign Players(failed) -->
+  <test thread-count="5" name="Test Wicket Keeper(failed)">
+    <classes>
+      <class name="com.automation.rcbteam.tests.TestWicketKeeper">
+        <methods>
+          <include name="testWicketKeeperPresent"/>
+        </methods>
+      </class> <!-- com.automation.rcbteam.tests.TestWicketKeeper -->
+    </classes>
+  </test> <!-- Test Wicket Keeper(failed) -->
+</suite> <!-- Failed suite [RCB Test Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RCB Test Suite" duration-ms="941" started-at="2023-02-13T00:50:54 IST" finished-at="2023-02-13T00:50:55 IST">
+    <groups>
+    </groups>
+    <test name="Test 4 Foreign Players" duration-ms="878" started-at="2023-02-13T00:50:54 IST" finished-at="2023-02-13T00:50:55 IST">
+      <class name="com.automation.rcbteam.tests.TestForeignPlayers">
+        <test-method status="PASS" signature="testMaxForeignPlayers()[pri:0, instance:com.automation.rcbteam.tests.TestForeignPlayers@f6efaab]" name="testMaxForeignPlayers" duration-ms="672" started-at="2023-02-13T00:50:54 IST" finished-at="2023-02-13T00:50:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxForeignPlayers -->
+      </class> <!-- com.automation.rcbteam.tests.TestForeignPlayers -->
+    </test> <!-- Test 4 Foreign Players -->
+    <test name="Test Wicket Keeper" duration-ms="16" started-at="2023-02-13T00:50:55 IST" finished-at="2023-02-13T00:50:55 IST">
+      <class name="com.automation.rcbteam.tests.TestWicketKeeper">
+        <test-method status="PASS" signature="testWicketKeeperPresent()[pri:0, instance:com.automation.rcbteam.tests.TestWicketKeeper@4218d6a3]" name="testWicketKeeperPresent" duration-ms="0" started-at="2023-02-13T00:50:55 IST" finished-at="2023-02-13T00:50:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWicketKeeperPresent -->
+      </class> <!-- com.automation.rcbteam.tests.TestWicketKeeper -->
+    </test> <!-- Test Wicket Keeper -->
+  </suite> <!-- RCB Test Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RCB Test Suite">
+
+	<listeners>
+		<listener class-name="com.automation.common.listeners.SuiteListeners"></listener>
+		<listener class-name="com.automation.common.listeners.TestListeners"></listener>
+		<listener class-name="com.automation.common.listeners.AnnotationTransformer"></listener>
+	</listeners>
+
+
+  <test name="Test 4 Foreign Players">
+    <classes>
+      <class name="com.automation.rcbteam.tests.TestForeignPlayers"/>
+    </classes>
+  </test>
+
+  <test name="Test Wicket Keeper">
+    <classes>
+      <class name="com.automation.rcbteam.tests.TestWicketKeeper"/>
+    </classes>
+  </test>
+</suite>

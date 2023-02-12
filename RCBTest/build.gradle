@@ -1,0 +1,43 @@
+
+plugins {
+    id 'java'
+    id 'idea'
+    id 'war'
+    id 'io.qameta.allure' version '2.11.0'
+}
+
+
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.testng', name: 'testng', version: '7.0.0'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.2'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:'3.5.3'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    implementation 'javax.servlet:javax.servlet-api:4.0.1'
+    implementation 'io.qameta.allure:allure-gradle:2.19.0'
+    runtimeOnly 'org.apache.tomcat.embed:tomcat-embed-core:9.0.34'
+//    runtimeOnly 'org.apache.tomcat.embed:tomcat-embed-logging-juli:9.0.34'
+    runtimeOnly 'org.apache.tomcat.embed:tomcat-embed-jasper:9.0.34'
+    }
+
+test {
+    useTestNG()
+}
+
+task startTomcat(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'org.apache.catalina.startup.Bootstrap'
+    args = ['start']
+}
+
+
