@@ -1,24 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[There are more than 4 foreign players]]>
+    </line>
+    <line>
+      <![CDATA[No wicket keeper found in the team]]>
+    </line>
   </reporter-output>
-  <suite name="RCB Test Suite" duration-ms="941" started-at="2023-02-13T00:50:54 IST" finished-at="2023-02-13T00:50:55 IST">
+  <suite name="RCB Test Suite" duration-ms="1554" started-at="2023-02-15T03:33:04 IST" finished-at="2023-02-15T03:33:05 IST">
     <groups>
     </groups>
-    <test name="Test 4 Foreign Players" duration-ms="878" started-at="2023-02-13T00:50:54 IST" finished-at="2023-02-13T00:50:55 IST">
+    <test name="Test 4 Foreign Players" duration-ms="1244" started-at="2023-02-15T03:33:04 IST" finished-at="2023-02-15T03:33:05 IST">
       <class name="com.automation.rcbteam.tests.TestForeignPlayers">
-        <test-method status="PASS" signature="testMaxForeignPlayers()[pri:0, instance:com.automation.rcbteam.tests.TestForeignPlayers@f6efaab]" name="testMaxForeignPlayers" duration-ms="672" started-at="2023-02-13T00:50:54 IST" finished-at="2023-02-13T00:50:55 IST">
+        <test-method status="PASS" signature="InitiateClassDB()[pri:0, instance:com.automation.rcbteam.tests.TestForeignPlayers@4562e04d]" name="InitiateClassDB" is-config="true" duration-ms="1" started-at="2023-02-15T03:33:04 IST" finished-at="2023-02-15T03:33:04 IST">
           <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateClassDB -->
+        <test-method status="PASS" signature="initiateTest()[pri:0, instance:com.automation.rcbteam.tests.TestForeignPlayers@4562e04d]" name="initiateTest" is-config="true" duration-ms="8" started-at="2023-02-15T03:33:04 IST" finished-at="2023-02-15T03:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateTest -->
+        <test-method status="PASS" signature="testMaxForeignPlayers()[pri:0, instance:com.automation.rcbteam.tests.TestForeignPlayers@4562e04d]" name="testMaxForeignPlayers" duration-ms="1011" started-at="2023-02-15T03:33:04 IST" finished-at="2023-02-15T03:33:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[There are more than 4 foreign players]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testMaxForeignPlayers -->
-      </class> <!-- com.automation.rcbteam.tests.TestForeignPlayers -->
-    </test> <!-- Test 4 Foreign Players -->
-    <test name="Test Wicket Keeper" duration-ms="16" started-at="2023-02-13T00:50:55 IST" finished-at="2023-02-13T00:50:55 IST">
-      <class name="com.automation.rcbteam.tests.TestWicketKeeper">
-        <test-method status="PASS" signature="testWicketKeeperPresent()[pri:0, instance:com.automation.rcbteam.tests.TestWicketKeeper@4218d6a3]" name="testWicketKeeperPresent" duration-ms="0" started-at="2023-02-13T00:50:55 IST" finished-at="2023-02-13T00:50:55 IST">
+        <test-method status="PASS" signature="TeardownTest(org.testng.ITestResult)[pri:0, instance:com.automation.rcbteam.tests.TestForeignPlayers@4562e04d]" name="TeardownTest" is-config="true" duration-ms="7" started-at="2023-02-15T03:33:05 IST" finished-at="2023-02-15T03:33:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMaxForeignPlayers status=SUCCESS method=TestForeignPlayers.testMaxForeignPlayers()[pri:0, instance:com.automation.rcbteam.tests.TestForeignPlayers@4562e04d] output=There are more than 4 foreign players]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- com.automation.rcbteam.tests.TestForeignPlayers -->
+    </test> <!-- Test 4 Foreign Players -->
+    <test name="Test Wicket Keeper" duration-ms="257" started-at="2023-02-15T03:33:05 IST" finished-at="2023-02-15T03:33:05 IST">
+      <class name="com.automation.rcbteam.tests.TestWicketKeeper">
+        <test-method status="PASS" signature="InitiateSuite()[pri:0, instance:com.automation.rcbteam.tests.TestWicketKeeper@33d512c1]" name="InitiateSuite" is-config="true" duration-ms="30" started-at="2023-02-15T03:33:04 IST" finished-at="2023-02-15T03:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateSuite -->
+        <test-method status="PASS" signature="InitiateClassDB()[pri:0, instance:com.automation.rcbteam.tests.TestWicketKeeper@33d512c1]" name="InitiateClassDB" is-config="true" duration-ms="1" started-at="2023-02-15T03:33:05 IST" finished-at="2023-02-15T03:33:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateClassDB -->
+        <test-method status="PASS" signature="initiateTest()[pri:0, instance:com.automation.rcbteam.tests.TestWicketKeeper@33d512c1]" name="initiateTest" is-config="true" duration-ms="1" started-at="2023-02-15T03:33:05 IST" finished-at="2023-02-15T03:33:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateTest -->
+        <test-method status="PASS" signature="testWicketKeeperPresent()[pri:0, instance:com.automation.rcbteam.tests.TestWicketKeeper@33d512c1]" name="testWicketKeeperPresent" duration-ms="189" started-at="2023-02-15T03:33:05 IST" finished-at="2023-02-15T03:33:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[No wicket keeper found in the team]]>
+            </line>
+          </reporter-output>
         </test-method> <!-- testWicketKeeperPresent -->
+        <test-method status="PASS" signature="TeardownTest(org.testng.ITestResult)[pri:0, instance:com.automation.rcbteam.tests.TestWicketKeeper@33d512c1]" name="TeardownTest" is-config="true" duration-ms="1" started-at="2023-02-15T03:33:05 IST" finished-at="2023-02-15T03:33:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWicketKeeperPresent status=SUCCESS method=TestWicketKeeper.testWicketKeeperPresent()[pri:0, instance:com.automation.rcbteam.tests.TestWicketKeeper@33d512c1] output=No wicket keeper found in the team]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+        <test-method status="FAIL" signature="CompleteSuite(org.testng.ITestContext)[pri:0, instance:com.automation.rcbteam.tests.TestWicketKeeper@33d512c1]" name="CompleteSuite" is-config="true" duration-ms="225" started-at="2023-02-15T03:33:06 IST" finished-at="2023-02-15T03:33:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2eced48b]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.automation.common.utilities.ExcelReport.GetRowCountForStatus(ExcelReport.java:216)
+at com.automation.common.utilities.ExcelReport.GeneratePassedCases(ExcelReport.java:265)
+at com.automation.common.BaseClass.CompleteSuite(BaseClass.java:192)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:369)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompleteSuite -->
       </class> <!-- com.automation.rcbteam.tests.TestWicketKeeper -->
     </test> <!-- Test Wicket Keeper -->
   </suite> <!-- RCB Test Suite -->

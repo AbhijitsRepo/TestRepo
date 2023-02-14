@@ -8,9 +8,7 @@ import com.automation.common.utilities.AllureManager;
 
 import java.util.*;
 /**
- * Suite listener
- * @author Savita Tambe
- *
+ * @author abhijit.bhattacharya
  */
 
 public class SuiteListeners extends BaseClass implements ISuiteListener {

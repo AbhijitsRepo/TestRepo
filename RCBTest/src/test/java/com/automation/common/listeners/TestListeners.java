@@ -9,9 +9,7 @@ import com.automation.common.BaseClass;
 import com.automation.common.utilities.Logger;
 
 /**
- * Suite listener
- * @author savtambe
- *
+ * @author abhijit.bhattacharya
  */
 
 

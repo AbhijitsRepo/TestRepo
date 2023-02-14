@@ -2,6 +2,8 @@ package com.automation.rcbteam.json.utilities;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import io.qameta.allure.Step;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -14,7 +16,7 @@ public class TeanmReader {
 	 * Read JsonFIle and Parse to POJO Objects
 	 * @return
 	 */
-	
+	@Step("Parse json File to java object")
 	public static Team getTeam() {
 //	    ClassLoader classLoader = getClass().getClassLoader();
 		System.out.println(Config.JsonPath);

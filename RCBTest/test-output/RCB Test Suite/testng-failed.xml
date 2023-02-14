@@ -10,7 +10,12 @@
     <classes>
       <class name="com.automation.rcbteam.tests.TestForeignPlayers">
         <methods>
+          <include name="InitiateClassDB"/>
           <include name="testMaxForeignPlayers"/>
+          <include name="TeardownTest"/>
+          <include name="CompleteSuite"/>
+          <include name="InitiateSuite"/>
+          <include name="initiateTest"/>
         </methods>
       </class> <!-- com.automation.rcbteam.tests.TestForeignPlayers -->
     </classes>
@@ -20,6 +25,11 @@
       <class name="com.automation.rcbteam.tests.TestWicketKeeper">
         <methods>
           <include name="testWicketKeeperPresent"/>
+          <include name="InitiateClassDB"/>
+          <include name="TeardownTest"/>
+          <include name="CompleteSuite"/>
+          <include name="InitiateSuite"/>
+          <include name="initiateTest"/>
         </methods>
       </class> <!-- com.automation.rcbteam.tests.TestWicketKeeper -->
     </classes>
